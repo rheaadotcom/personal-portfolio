@@ -145,7 +145,7 @@ export default function Hero() {
               <div className="w-full h-full bg-black rounded-[2rem] overflow-hidden relative flex items-center justify-center">
                 {!imgFailed ? (
                   <img
-                    src="/profile.jpeg"
+                    src="/riya.png"
                     alt="Riya Bhardwaj"
                     onError={() => setImgFailed(true)}
                     className="w-full h-full object-cover relative z-10 transition-transform duration-500 group-hover:scale-105"
